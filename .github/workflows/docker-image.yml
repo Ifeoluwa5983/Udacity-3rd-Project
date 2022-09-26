@@ -16,7 +16,7 @@ jobs:
         run: |
           docker build -t udagram-frontend ./udagram-frontend
           docker tag udagram-frontend ifeoh/udagram-frontend:v2
-          docker build -t reverseproxy ./reverseproxy
+          docker build -t reverseproxy ./udagram-reverseproxy
           docker tag reverseproxy ifeoh/reverseproxy
           docker build -t udagram-api-feeds ./udagram-api-feeds
           docker tag udagram-api-feeds ifeoh/udagram-api-feeds
