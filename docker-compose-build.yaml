@@ -7,11 +7,11 @@ services:
   backend_user:
     build:
       context: ./udagram-api-user
-    image: udagram-api-user
+    image: udagram-api-users
   backend_feed:
     build:
       context: ./udagram-api-feed
-    image: udagram-api-feed
+    image: udagram-api-feeds
   frontend:
     build:
       context: ./udagram-frontend
